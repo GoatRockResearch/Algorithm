@@ -22,22 +22,54 @@ Containers hold objects: `Numbers`, `String`, `Boolean`.
 
 **`Equality` and `Non-Equality`**
 
-`=` and `==` are not equivalent;
-`=` sets objects (e.g., interpret `(X = Y)` as *Assign `Y` to `X`*);
-`==` tests objects (e.g., interpret `(X == Y)` as *Are `X` and `Y` equal?* [Note: converts `X` to `Y` before testing equivalence]);
-`===` tests objects (e.g., interpret `(X === Y)` as *Are `X` and `Y` equal?* [Note: does not convert `X` to `Y` before testing equivalence]);
+* `=` and `==` are not equivalent;
+* `=` sets objects (e.g., interpret `(X = Y)` as *Assign `Y` to `X`*);
+* `==` tests objects (e.g., interpret `(X == Y)` as *Are `X` and `Y` equal?* [Note: converts `X` to `Y` before testing equivalence]);
+* `===` tests objects (e.g., interpret `(X === Y)` as *Are `X` and `Y` equal?* [Note: does not convert `X` to `Y` before testing equivalence]);
 
+**`Logical Operators`**
+
+* `&&`: operator *AND* combines 2 logical tests; returning only if both operands test true:
+
+    ```
+        if (X == 'Ray Gun' && Y >= 77) { goRayGunning(); }
+    ```
+
+* `||`: operator *OR* combines 2 logical tests; returning if either operand tests true:
+
+    ```
+        if (X == 'Ray Gun' || Y >= 77) { goRayGunning(); }
+    ```
+
+* `!`: operator *NOT* inverts 2 logical tests; returning if either operand does not test true:
+
+    ```
+        if (!77) { goRayGunning(); }
+    ```
+
+* Example Logic Statement:
+
+    ```
+        if (CONDITION_1 && CONDITION_2){
+            // body of `IF`: runs if CONDITION_1 is true AND CONDITION_2 is true
+        }
+        else {
+            // body of `(THEN) ELSE`: runs if CONDITION_1 is false OR CONDITION_2 is false
+        }
+    ```
+
+---
 
 **`Conditional` (if / else) statements**:
 
 ```
     if (CONDITION_1 && CONDITION_2)
         {
-            // body of the ‘if’ statement -- only runs if CONDITION_1 is true AND CONDITION_2 is true
+            // body of ‘IF’: runs if CONDITION_1 is true AND CONDITION_2 is true
         }
     else
         {
-            // body of the ‘else’ statement -- only runs if CONDITION_1 is false or CONDITION_2 is false
+            // body of `(THEN) ELSE`: runs if CONDITION_1 is false or CONDITION_2 is false
         }
 ```
 
@@ -47,12 +79,12 @@ Containers hold objects: `Numbers`, `String`, `Boolean`.
     //  Declaring standalone functions
         function MY_FUNCTION(PARAMETER_1, PARAMETER_2)
             {
-                // body of the function -- only runs if function is invoked
+                // body of `f(x)unction`: runs if f(x)unction is invoked
             }        
 
 
     //  Calling standalone functions. ARGUMENTS passed by a caller enter the function as PARAMETERS
-        MY_FUNCTION(ARGUMENT_1, ARGUMENT_2);
+        function MY_FUNCTION(ARGUMENT_1, ARGUMENT_2);
 ```
 
 **`For` Loops**:
@@ -60,7 +92,7 @@ Containers hold objects: `Numbers`, `String`, `Boolean`.
 ```
     for (INITIALIZATION; TEST; INCREMENT/DECREMENT)
         {
-            // body of the loop -- run repeatedly while TEST is true
+            // body of `LOOP`: runs repeatedly while TEST is true
             // INIT.   TEST?-BODY-INCREMENT.   TEST?-BODY-INCREMENT.   TEST?-[exit]
         }
 ```
