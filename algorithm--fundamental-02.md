@@ -1,5 +1,7 @@
 # Algorithms: Fundamentals 02
 
+---
+
 ## Set 01
 
 ### Threes and Fives
@@ -75,6 +77,8 @@ Implement a f(x) `generateCoinChange()` that accepts a parameter for the number 
     }
 ```
 
+---
+
 ## Set 02
 
 ### Statistics to Doubles
@@ -82,9 +86,10 @@ Implement a f(x) `generateCoinChange()` that accepts a parameter for the number 
 Implement `‘dice’` that randomly return `ints` between `1` and `6` inclusive. Roll dice, tracking stats until doubles are rolled. Display number of `rolls`, `min`, `max`, and `average`.
 
 <!---
-// Get num from 0 to "almost 1". Make it
-// from 0 to "almost 6". Drop the decimal to
-// make [0,1,2,3,4,5]. Add 1: [1,2,3,4,5,6]
+//  Get num from 0 to "almost 1". Make it
+//  from 0 to "almost 6". Drop the decimal to
+//  make [0,1,2,3,4,5]. Add 1: [1,2,3,4,5,6]
+//  return Math.floor(Math.random() * 6) + 1;
 -->
 
 ```
@@ -92,7 +97,6 @@ Implement `‘dice’` that randomly return `ints` between `1` and `6` inclusive
         var rand = Math.random() * 6;
         rand = Math.floor(rand) + 1;
         return rand;
-        <!--- // return Math.floor(Math.random() * 6) + 1; -->
     }
 
     function statsBeforeDoubles(){
@@ -156,6 +160,7 @@ Implement sumToOne(num) that sums num's digits repeatedly until the sum is one d
     }
 ```
 
+---
 
 ## Set 03
 
@@ -163,7 +168,7 @@ Implement sumToOne(num) that sums num's digits repeatedly until the sum is one d
 
 Implement the a *Fibonacci* f(x) (e.g., numerical sequence in which each number is the sum of the previous two). The *Fibonacci* numbers @ `idx[0]` and `idx[1]` have values of `0` and `1` respectively.
 
-<!---\
+<!---
 //  f(x) should accept an argument of which Fibonacci number.
 //  fibonacci(2) = 1, fibonacci(3) = 2, fibonacci(4) = 3, fibonacci(5) = 5, etc.;
 //  passed nums w/ a fractional component are ignored;
