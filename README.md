@@ -1,13 +1,11 @@
 #  README.md
 
-##  Team Notes
+##  Developer Notes
 
-Developer: 	            Richard H. Ross (L|5)
-
-Site: 					http://goatrockresearch.org
-
-Twitter: 				@richardhross
+Developer: 	            Richard H. Ross (L|5)<br />
+Site: 					http://goatrockresearch.org<br />
+Twitter: 				@richardhross<br />
 
 ##  Tech Notes
 
-Algorithm experimentation and course work.
+Algorithm: Notes, Snippets, Examples, Experiments
