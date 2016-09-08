@@ -1,6 +1,6 @@
 # Algorithms: Fundamentals 01
 
-## Fundamentals Set #1
+## Set 01
 
 ### Print 1-255
 
@@ -97,7 +97,7 @@ Analyze an array's values and print the average.
 
 ---
 
-## Fundamental Set #2
+## Set 02
 
 ### Array with Odds
 
@@ -199,9 +199,4 @@ Given an array, shift all values forward, dropping the first value and leaving a
     }
 ```
 
----
-
-
-
-
-<!--L|5-->
+<!---L|5-->
