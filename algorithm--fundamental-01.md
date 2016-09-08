@@ -7,7 +7,7 @@
 Print all the integers from `1 to 255`.
 
 ```
-    function print1to255(){
+    function print1255(){
         var num = 1;
         while (num <= 255)
         {
@@ -22,7 +22,7 @@ Print all the integers from `1 to 255`.
 Print integers from `0 to 255`, and the `sum` so far.
 
 ```
-    function printSum1to255(){
+    function printSum1255(){
         var sum = 0;
         for (var num = 0; num <= 255; num++){
             sum += num;
