@@ -3,6 +3,7 @@
 
 //  Write a function that would get the sum of all the even numbers from 1 to 1000.
 
+//  Method A
 function sum_even_numbers(){
     var sum = 0;
     for(var x = 1; x < 1001; x++){
@@ -12,5 +13,7 @@ function sum_even_numbers(){
     }
     return sum;
 }
+
+
 
 //  L|5
