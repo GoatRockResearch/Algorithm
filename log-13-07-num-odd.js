@@ -1,7 +1,7 @@
 
 //  Algorithms: Basic 13-07
 
-//  Write a function that returns all the odd numbers between 1 to 117;
+//  Write a f(x) that returns all the odd numbers between 1 to 117;
 //  e.g. `[1,3,5, .... , 47,49]`;
 
 //  Method A:

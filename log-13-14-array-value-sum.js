@@ -1,7 +1,7 @@
 
 //  Algorithm: Fundamental 13-14
 
-//  Write a function that returns an array with all the numbers from 1 to 255 and the sum;
+//  Write a f(x) that returns an array with all the numbers from 1 to 255 and the sum;
 
 function numSum() {
     var sum = 0;

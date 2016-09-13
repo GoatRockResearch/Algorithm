@@ -1,7 +1,7 @@
 
 //  Algorithms: Basic 13-08
 
-//  Write a function that takes an array and returns the number of values that are greater than Y;
+//  Write a f(x) that takes an array and returns the number of values that are greater than Y;
 //  e.g. if `arr = [1, 3, 5, 7]` and `Y = 3`, your function will return `2`;
 
 function greaterYA(arr, y) {

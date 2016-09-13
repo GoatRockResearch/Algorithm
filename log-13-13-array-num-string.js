@@ -1,7 +1,7 @@
 
 //  Algorithms: Basic 13-13
 
-//  Write a function that replaces negative values within an array with a `'String'`;
+//  Write a f(x) that replaces negative values within an array with a `'String'`;
 //  e.g., `arr = [-1,-3,2]` returns `['String','String',2]`;
 
 function numToStr(arr) {

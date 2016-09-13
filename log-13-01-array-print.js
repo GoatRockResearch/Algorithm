@@ -1,7 +1,7 @@
 
 //  Algorithm: Basic 13-01
 
-//  Write a function that returns an array with all the numbers from 1 to 255;
+//  Write a f(x) that returns an array with all the numbers from 1 to 255;
 
 // Method A:
 function returnArrayA() {

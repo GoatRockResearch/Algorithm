@@ -1,7 +1,7 @@
 
 //  Algorithms: Basic 13-02
 
-//  Write a function that sums all the even numbers from 1 to 1000;
+//  Write a f(x) that sums all the even numbers from 1 to 1000;
 
 //  Method A:
 function sumEven1000A(){

@@ -1,7 +1,7 @@
 
 //  Algorithms: Basic 13-04
 
-//  Write a function that returns the sum of all the values within an array;
+//  Write a f(x) that returns the sum of all the values within an array;
 //  e.g. `[-5,2,5,12]` returns `14`);
 
 function returnArray(arr) {

@@ -1,7 +1,7 @@
 
 //  Algorithms: Basic 13-05
 
-//  Write a function that returns the maximum number in an array;
+//  Write a f(x) that returns the maximum number in an array;
 //  e.g. for `[-3,3,5,7]` max is `7`;
 
 //  Method A:

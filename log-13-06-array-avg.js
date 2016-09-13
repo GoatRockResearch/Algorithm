@@ -1,7 +1,7 @@
 
 //  Algorithms: Basic 13-06
 
-//  Write a function that returns the average of the values in an array;
+//  Write a f(x) that returns the average of the values in an array;
 //  e.g. for `[1,3,5,7,20]` average is `7.2`;
 
 function arrayAvgA(arr) {
