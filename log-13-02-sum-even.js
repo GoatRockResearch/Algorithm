@@ -1,9 +1,10 @@
 
 //  Algorithms: Basic 13-02
 
-//  Write a function that would get the sum of all the even numbers from 1 to 1000.
+//  Write a function that sums all the even numbers from 1 to 1000;
 
-function sum_even_numbers(){
+//  Method A:
+function sumEven1000A(){
     var sum = 0;
     for(var x = 1; x < 1001; x++){
        if(x % 2 === 0){
@@ -11,8 +12,7 @@ function sum_even_numbers(){
        }
     }
     return sum;
+    // console.log(sum);
 }
-
-
 
 //  L|5
