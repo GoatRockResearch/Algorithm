@@ -4,7 +4,7 @@
 //  Write a f(x) that replaces negative values within an array with a `'String'`;
 //  e.g., `arr = [-1,-3,2]` returns `['String','String',2]`;
 
-function numToStr(arr) {
+function arrayNumString(arr) {
     arr = [-1,1,1,7]
     for(var x = 0; x < arr.length; x++){
         if(arr[x] < 0){

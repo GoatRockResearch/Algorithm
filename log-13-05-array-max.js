@@ -13,7 +13,7 @@ function arrayMax(arr) {
         }
     }
     return max;
-    // console.log(`Max value is:`, max);
+    // console.log(`Max value:`, max);
 }
 
 //  L|5

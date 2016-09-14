@@ -5,7 +5,7 @@
 //  e.g. `[1,3,5, .... , 47,49]`;
 
 //  Method A:
-function returnOddA() {
+function numOddA() {
     var arr = [];
     for(var x = 1; x < 118; x++){
        if(x % 2 === 1) {
@@ -17,7 +17,7 @@ function returnOddA() {
 }
 
 //  Method B:
-function returnOddB() {
+function numOddB() {
     var arr = [];
     for (var x = 1; x <= 118; x += 2) {
         arr.push(x);

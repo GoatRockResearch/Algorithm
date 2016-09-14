@@ -4,7 +4,7 @@
 //  Write a f(x) that takes an array and returns the number of values that are greater than Y;
 //  e.g. if `arr = [1, 3, 5, 7]` and `Y = 3`, your function will return `2`;
 
-function greaterYA(arr, y) {
+function arrayGreater(arr, y) {
     arr = [1,3,5,7]
     var y = 3
     var count = 0;

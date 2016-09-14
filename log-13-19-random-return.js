@@ -16,7 +16,7 @@ function rollDie() {
     return rand;
 }
 
-function statRandom(){
+function randomReturn(){
     var minRoll = 12;
     var maxRoll = 2;
     var sum = 0;
