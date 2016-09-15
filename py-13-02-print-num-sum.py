@@ -5,8 +5,8 @@
 
 def printNumSum():
     sum = 0
-    for x in range(0,256):
-        sum += x
-        print "Num: {} and the Sum: {}".format(x, sum)
+    for num in range(0,256):
+        sum += num
+        print "Num: {} and the Sum: {}".format(num, sum)
 
 #   L|5
