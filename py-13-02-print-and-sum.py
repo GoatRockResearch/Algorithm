@@ -1,7 +1,7 @@
 
 #   Algorithm: py Basic 13-02
 
-#   Write a f(x) that sums all the even numbers from 1 to x;
+#   Write a f(x) that prints ints 0-255 and sum thereof; 
 
 def arrayPrint():
     for num in range(1,256):
