@@ -9,5 +9,4 @@ def printMax(numList):
         if numList[idx] > max:
             max = numList[idx]
     return max
-
 #   L|5
